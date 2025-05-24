@@ -230,8 +230,14 @@ ol {
 }
 
 .content__card-link:hover .content__video-card {
-  text-decoration: underline 1px;
-  text-underline-position: under;
+  text-decoration: underline solid 1px;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+/*дублирующий селектор удалить*/
+.content__card-link:hover .content__video-card {
+  text-decoration: underline solid 1px;
+  text-underline-offset: 2px;
   cursor: pointer;
 }
 
