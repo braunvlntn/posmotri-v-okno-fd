@@ -72,6 +72,7 @@ ol {
 }
 
 .result__video-container {
+  position: relative;
   height: 386px;
   margin-bottom: 17px;
 }
@@ -151,6 +152,7 @@ ol {
 }
 
 .content__list-container {
+  position: relative;
   overflow-y: scroll;
   height: 298px;
 }
@@ -302,12 +304,4 @@ ol {
 
 .more-button {
   width: 100%;
-}
-
-.result__video-container {
-  position: relative;
-}
-
-.content__list-container {
-  position: relative;
 }
